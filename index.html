@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Definición del conjunto de caracteres y configuración de la vista para dispositivos móviles -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Preconexión a las fuentes de Google para optimizar la carga -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    
+    <!-- Importación de fuentes de Google: Chakra Petch e Inter para los textos -->
+    <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@700&family=Inter:wght@400;700&display=swap" rel="stylesheet">
+    
+    <!-- Enlace al archivo de estilos CSS externo -->
+    <link rel="stylesheet" href="style.css">
+    
+    <!-- Título de la página -->
+    <title>JS Game</title>
+</head>
+
+<body>
+    <!-- Contenedor principal de la aplicación -->
+    <div class="container">
+        <div class="container__contenido">
+            <!-- Imagen del robot -->
+            <img src="./img/robot.png" alt="Robot" class="container__imagen-robot" />
+            
+            <!-- Contenedor de la información -->
+            <div class="container__informaciones">
+                <!-- Icono de trofeo -->
+                <img src="./img/trophy.png" alt="Icono de trofeo" />
+                
+                <!-- Texto de éxito del juego -->
+                <div class="container__texto">
+                    <h1><span class="container__texto-azul">Correcto!</span></h1>
+                    <h2>Descubriste el número secreto!</h2>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Inclusión del script de JavaScript para la lógica del juego -->
+    <script src="app.js"></script>
+</body>
+</html>
